@@ -1,0 +1,64 @@
+{
+  "dataset": "mini_speech_commands",
+  "archive_sha256": "49650f2341b26d886b46b3f4fb8fed59e30300b17550f1ee4a768b3106cf93a0",
+  "analysis_files": 7973,
+  "analysis_splits": {
+    "test": 1359,
+    "train": 5382,
+    "validation": 1232
+  },
+  "total_files": 8000,
+  "valid_files": 8000,
+  "read_errors": 0,
+  "speakers": 1750,
+  "classes": {
+    "down": 1000,
+    "go": 1000,
+    "left": 1000,
+    "no": 1000,
+    "right": 1000,
+    "stop": 1000,
+    "up": 1000,
+    "yes": 1000
+  },
+  "sample_rates": {
+    "16000": 8000
+  },
+  "channels": {
+    "1": 8000
+  },
+  "duration_min": 0.4266875,
+  "duration_max": 1.0,
+  "shorter_than_1s": 822,
+  "all_zero": 0,
+  "pcm_duplicate_extra": 27,
+  "pcm_duplicate_members": 54,
+  "duplicate_label_conflicts": 0,
+  "low_energy": 691,
+  "clipping_flag": 152,
+  "very_short": 0,
+  "splits": {
+    "test": {
+      "files": 1359,
+      "speakers": 291
+    },
+    "train": {
+      "files": 5409,
+      "speakers": 1193
+    },
+    "validation": {
+      "files": 1232,
+      "speakers": 266
+    }
+  },
+  "train_majority_class": "right",
+  "train_majority_fraction": 0.12764771460423635,
+  "train_low_energy": 434,
+  "train_clipping": 101,
+  "train_speaker_median_clips": 3.0,
+  "train_rms_median": -26.75115654333497,
+  "train_low_frame_median": 0.58,
+  "training_examples_plotted": 24,
+  "manual_listening_completed": false,
+  "notes": "ممیزی ساختاری کل داده؛ تحلیل اکتشافی فقط آموزش؛ هیچ معیار مدل روی آزمون محاسبه نشده است"
+}

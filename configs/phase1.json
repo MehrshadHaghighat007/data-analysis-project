@@ -1,0 +1,14 @@
+{
+  "dataset_url": "https://storage.googleapis.com/download.tensorflow.org/data/mini_speech_commands.zip",
+  "archive_sha256": "49650f2341b26d886b46b3f4fb8fed59e30300b17550f1ee4a768b3106cf93a0",
+  "classes": ["down", "go", "left", "no", "right", "stop", "up", "yes"],
+  "split_salt": "mehrshad-phase1-v1",
+  "train_fraction": 0.7,
+  "validation_fraction": 0.15,
+  "low_energy_dbfs": -40,
+  "frame_low_energy_dbfs": -45,
+  "frame_ms": 20,
+  "clipping_fraction_threshold": 0.001,
+  "very_short_seconds": 0.25,
+  "examples_per_class": 3
+}

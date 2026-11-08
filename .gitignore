@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+data/*.zip
+data/*.part
+data/mini_speech_commands/
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
